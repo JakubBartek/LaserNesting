@@ -48,6 +48,37 @@ build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+
+# Qt specific
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+*.pro.user
+*.pro.user.*
+.qmake.stash
+
+# Qt Design Studio
+*.qtds
+*.qmlproject.qtds
+.qds/
+
+# Qt Creator
+*.creator.user
+.qtc_clangd/
+
+# Qt generated
+autogen/
+Generated/
+
+# QML cache
+.qmlcache/
+qmlcache/
+*.jsc
+
+# Qt build artifacts
+object_script.*.Release
+object_script.*.Debug
 Makefile
 install_manifest.txt
 compile_commands.json

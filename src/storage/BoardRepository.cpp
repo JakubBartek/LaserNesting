@@ -7,5 +7,10 @@ std::vector<Board> BoardRepository::loadReusableBoards() const
 
 void BoardRepository::saveReusableBoard(const Board& board)
 {
+    if (!board.reusable())
+    {
+        return;
+    }
+
     m_cachedBoards.push_back(board);
 }

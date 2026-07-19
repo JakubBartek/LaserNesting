@@ -15,5 +15,5 @@ public:
 private:
     NestingEngine m_engine;
     BoardRepository m_boardRepository;
-    QLabel* m_statusLabel;
+    QLabel* m_statusLabel = nullptr;
 };
